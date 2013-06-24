@@ -7,6 +7,3 @@ PartOf=vmware.target
 Type=simple
 RemainAfterExit=yes
 ExecStart=/usr/sbin/vmware-authdlauncher
-
-[Install]
-WantedBy=vmware.target

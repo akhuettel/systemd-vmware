@@ -9,6 +9,3 @@ Type=simple
 RemainAfterExit=yes
 ExecStart=/sbin/modprobe vsock
 ExecStop=/sbin/modprobe -r vsock
-
-[Install]
-WantedBy=vmware.target

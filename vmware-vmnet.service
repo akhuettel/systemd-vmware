@@ -10,6 +10,3 @@ ExecStartPre=/sbin/modprobe vmnet
 ExecStart=/usr/bin/vmware-networks --start
 ExecStop=/usr/bin/vmware-networks --stop
 ExecStopPost=/sbin/modprobe -r vmnet
-
-[Install]
-WantedBy=vmware.target

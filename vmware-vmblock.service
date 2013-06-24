@@ -8,6 +8,3 @@ Type=simple
 RemainAfterExit=yes
 ExecStart=/sbin/modprobe vmblock
 ExecStop=/sbin/modprobe -r vmblock
-
-[Install]
-WantedBy=vmware.target
