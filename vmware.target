@@ -5,7 +5,6 @@ Wants=vmware-vmci.service
 Wants=vmware-vmsock.service
 Wants=vmware-vmblock.service
 Wants=vmware-vmnet.service
-Wants=vmware-authentication.service
 Wants=vmware-usb.service
 
 [Install]
