@@ -6,5 +6,5 @@ PartOf=vmware.target
 [Service]
 Type=simple
 RemainAfterExit=yes
-ExecStart=/usr/bin/vmware-usbarbitrator
-ExecStop=/usr/bin/vmware-usbarbitrator --kill
+ExecStart=/opt/vmware/bin/vmware-usbarbitrator
+ExecStop=/opt/vmware/bin/vmware-usbarbitrator --kill
